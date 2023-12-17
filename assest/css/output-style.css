@@ -440,6 +440,18 @@ video {
   display: none;
 }
 
+@font-face {
+  font-family: "Y-BAKH";
+
+  src: url("../fonts/Yekan\ Bakh\ FaNum\ 07\ Heavy.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "B-YEKAN";
+
+  src: url("../fonts/Yekan.ttf") format("truetype");
+}
+
 *, ::before, ::after {
   --tw-border-spacing-x: 0;
   --tw-border-spacing-y: 0;

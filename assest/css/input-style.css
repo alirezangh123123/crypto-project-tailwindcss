@@ -1,3 +1,13 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@layer base {
+  @font-face {
+    font-family: "Y-BAKH";
+    src: url("../fonts/Yekan\ Bakh\ FaNum\ 07\ Heavy.ttf") format("truetype");
+  }
+  @font-face {
+    font-family: "B-YEKAN";
+    src: url("../fonts/Yekan.ttf") format("truetype");
+  }
+}
