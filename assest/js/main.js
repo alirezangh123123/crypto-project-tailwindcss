@@ -1,6 +1,7 @@
 const getContentMenu = document.getElementById("mobile-content-menu");
 const getTabMenu = document.getElementById("mobil-tab-menu");
 const getCloseBtn = document.getElementsByClassName("leave-btn")[0];
+const getWallet = document.querySelector(".wallet-wrapper img");
 window.addEventListener("load", (event) => {
   getTabMenu.addEventListener("click", () => {
     OpenMenu();
@@ -10,10 +11,10 @@ window.addEventListener("load", (event) => {
   });
 });
 let closeMenu = () => {
-  getContentMenu.classList.remove("right-0");
-  getContentMenu.classList.add("right-[-200rem]");
+  getContentMenu.classList.remove("acitve");
 };
 let OpenMenu = () => {
-  getContentMenu.classList.remove("right-[-200rem]");
-  getContentMenu.classList.add("right-0");
+  getContentMenu.classList.add("acitve");
+  getWallet.classList.remove("z-40");
+  getWallet.classList.add("z-30");
 };

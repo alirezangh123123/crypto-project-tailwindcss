@@ -19,8 +19,8 @@
   .menu-item {
     @apply text-light-70 font-yekan-Bakh text-sm font-normal;
   }
-  .mobile-icon-btn{
-    @apply rounded-2xl w-10 h-10 relative 
+  .mobile-icon-btn {
+    @apply rounded-2xl w-10 h-10 relative;
   }
 }
 .sub-bar {
@@ -35,6 +35,32 @@
 .menu-list li:hover .disabled-bar {
   @apply w-full;
 }
-.mobile-menu-titles{
-  @apply text-light-70 text-right font-yekan-Bakh text-sm font-normal 
+.mobile-menu-titles {
+  @apply text-light-70 text-right font-yekan-Bakh text-sm font-normal;
+}
+/* haader-style */
+#mobile-content-menu {
+  display: flex;
+  flex-direction: column;
+  width: 65%;
+  transition: all 0.5s;
+  top: 0;
+  position: fixed;
+  height: 100vh;
+  right: -100rem;
+ @apply z-40
+}
+#mobile-content-menu.acitve {
+  right: 0rem;
+  @apply z-40
+}
+#mobile-content-menu.acitve.wallet-wrapper{
+  z-index: -40;
+
+}
+.header-wrapper{
+  background: url("../img/business-data-financial-figures-visualiser-graphic\ 1.svg") center center no-repeat;
+  background-size: cover;
+  @apply bg-primary-80;
+z-index: 10 !important;
 }

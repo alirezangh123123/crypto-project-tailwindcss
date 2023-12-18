@@ -639,20 +639,12 @@ video {
   }
 }
 
-.fixed {
-  position: fixed;
-}
-
 .absolute {
   position: absolute;
 }
 
 .relative {
   position: relative;
-}
-
-.-right-80 {
-  right: -20rem;
 }
 
 .bottom-\[6\.25\%\] {
@@ -675,28 +667,24 @@ video {
   top: 8.33%;
 }
 
-.right-0 {
-  right: 0px;
+.z-20 {
+  z-index: 20;
 }
 
-.-right-0 {
-  right: -0px;
+.z-30 {
+  z-index: 30;
 }
 
-.-right-96 {
-  right: -24rem;
-}
-
-.right-\[\] {
-  right: ;
-}
-
-.right-\[-200rem\] {
-  right: -200rem;
+.z-40 {
+  z-index: 40;
 }
 
 .col-span-1 {
   grid-column: span 1 / span 1;
+}
+
+.ml-9 {
+  margin-left: 2.25rem;
 }
 
 .mr-9 {
@@ -743,12 +731,16 @@ video {
   height: 40.64px;
 }
 
-.h-\[auto\] {
-  height: auto;
+.h-\[538px\] {
+  height: 538px;
 }
 
-.h-screen {
-  height: 100vh;
+.h-\[608px\] {
+  height: 608px;
+}
+
+.h-\[auto\] {
+  height: auto;
 }
 
 .w-2\/12 {
@@ -767,16 +759,20 @@ video {
   width: 103.57px;
 }
 
+.w-\[221px\] {
+  width: 221px;
+}
+
 .w-\[250px\] {
   width: 250px;
 }
 
-.w-\[64\.58\%\] {
-  width: 64.58%;
+.w-\[538px\] {
+  width: 538px;
 }
 
-.w-\[65\%\] {
-  width: 65%;
+.w-\[64\.58\%\] {
+  width: 64.58%;
 }
 
 .w-\[77\.57px\] {
@@ -869,6 +865,11 @@ video {
   border-radius: 0.75rem;
 }
 
+.rounded-b-\[14px\] {
+  border-bottom-right-radius: 14px;
+  border-bottom-left-radius: 14px;
+}
+
 .border-b-2 {
   border-bottom-width: 2px;
 }
@@ -876,6 +877,11 @@ video {
 .border-primary-50 {
   --tw-border-opacity: 1;
   border-color: rgb(33 80 245 / var(--tw-border-opacity));
+}
+
+.bg-\[\#fff110\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 241 16 / var(--tw-bg-opacity));
 }
 
 .bg-light-5 {
@@ -976,14 +982,6 @@ video {
   transition-duration: 150ms;
 }
 
-.duration-300 {
-  transition-duration: 300ms;
-}
-
-.duration-500 {
-  transition-duration: 500ms;
-}
-
 /* header stlye */
 
 .sub-bar {
@@ -1027,6 +1025,37 @@ video {
   font-weight: 400;
   --tw-text-opacity: 1;
   color: rgb(191 204 211 / var(--tw-text-opacity));
+}
+
+/* haader-style */
+
+#mobile-content-menu {
+  display: flex;
+  flex-direction: column;
+  width: 65%;
+  transition: all 0.5s;
+  top: 0;
+  position: fixed;
+  height: 100vh;
+  right: -100rem;
+  z-index: 40
+}
+
+#mobile-content-menu.acitve {
+  right: 0rem;
+  z-index: 40
+}
+
+#mobile-content-menu.acitve.wallet-wrapper{
+  z-index: -40;
+}
+
+.header-wrapper{
+  background: url("../img/business-data-financial-figures-visualiser-graphic\ 1.svg") center center no-repeat;
+  background-size: cover;
+  --tw-bg-opacity: 1;
+  background-color: rgb(22 53 163 / var(--tw-bg-opacity));
+  z-index: 10 !important;
 }
 
 .group:hover .group-hover\:fill-primary-50 {
