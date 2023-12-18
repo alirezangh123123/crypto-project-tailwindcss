@@ -879,6 +879,18 @@ video {
   width: 97.92%;
 }
 
+.w-\[\] {
+  width: ;
+}
+
+.w-\[70\%\] {
+  width: 70%;
+}
+
+.w-\[65\%\] {
+  width: 65%;
+}
+
 .max-w-7xl {
   max-width: 80rem;
 }
@@ -1039,6 +1051,18 @@ video {
   padding-right: 5rem;
 }
 
+.pr-10 {
+  padding-right: 2.5rem;
+}
+
+.pr-5 {
+  padding-right: 1.25rem;
+}
+
+.pr-7 {
+  padding-right: 1.75rem;
+}
+
 .text-center {
   text-align: center;
 }
@@ -1180,6 +1204,10 @@ video {
     --tw-space-x-reverse: 0;
     margin-right: calc(0.75rem * var(--tw-space-x-reverse));
     margin-left: calc(0.75rem * calc(1 - var(--tw-space-x-reverse)));
+  }
+
+  .sm\:pr-10 {
+    padding-right: 2.5rem;
   }
 }
 
