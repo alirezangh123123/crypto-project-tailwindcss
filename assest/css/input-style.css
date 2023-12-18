@@ -11,3 +11,27 @@
     src: url("../fonts/Yekan.ttf") format("truetype");
   }
 }
+/* header stlye */
+@layer base {
+  .btn-center {
+    @apply text-light-5   font-yekan-Bakh font-thin rounded-xl py-1 my-4 w-full space-x-1 px-3  flex justify-around items-center;
+  }
+  .menu-item {
+    @apply text-light-70 font-yekan-Bakh text-sm font-normal;
+  }
+  .mobile-icon-btn{
+    @apply rounded-2xl w-10 h-10 relative 
+  }
+}
+.sub-bar {
+  @apply w-full h-[2px] bg-primary-50 absolute bottom-0;
+}
+.menu-list li:hover a {
+  @apply text-primary-50 transition-all duration-300;
+}
+.disabled-bar {
+  @apply w-0 h-[2px] absolute right-0 bg-primary-50   transition-all   duration-300;
+}
+.menu-list li:hover .disabled-bar {
+  @apply w-full;
+}
