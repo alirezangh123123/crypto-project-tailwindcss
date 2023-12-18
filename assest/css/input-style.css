@@ -35,3 +35,6 @@
 .menu-list li:hover .disabled-bar {
   @apply w-full;
 }
+.mobile-menu-titles{
+  @apply text-light-70 text-right font-yekan-Bakh text-sm font-normal 
+}
