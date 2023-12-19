@@ -22,6 +22,9 @@
   .mobile-icon-btn {
     @apply rounded-2xl w-10 h-10 relative;
   }
+  .hero-small-title{
+    @apply text-light-5 text-[32px] leading-[58.5px]  font-yekan-Bakh font-normal
+  }
 }
 .sub-bar {
   @apply w-full h-[2px] bg-primary-50 absolute bottom-0;
@@ -61,6 +64,6 @@
 .header-wrapper{
   background: url("../img/business-data-financial-figures-visualiser-graphic\ 1.svg") center center no-repeat;
   background-size: cover;
-  @apply bg-primary-80;
+  background-color: #2150F5;
 z-index: 10 !important;
 }

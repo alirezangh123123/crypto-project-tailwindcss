@@ -9,10 +9,8 @@
   </head>
   <body>
     <!-- header -->
-    <section class="header-wrapper">
-      <header
-        class=" h-32 w-full flex items-center justify-center px-4"
-      >
+    <section class="header-wrapper flex flex-col">
+      <header class="h-32 w-full flex items-center justify-center px-4">
         <nav class="container z-40 bg-light-5 h-20 rounded-xl flex max-w-7xl">
           <div
             class="btn-wrapper hidden md:flex justify-between w-[250px] space-x-2"
@@ -236,7 +234,7 @@
               </svg>
             </div>
           </div>
-          <div id="mobile-content-menu" class="shadow-md  bg-light-5 md:hidden ">
+          <div id="mobile-content-menu" class="shadow-md bg-light-5 md:hidden">
             <div
               class="btn-mobile-menu-wrapper z-40 relative mt-[89px] mr-9 flex justify-end"
             >
@@ -429,13 +427,36 @@
           </div>
         </nav>
       </header>
-      <div class="wallet-wrapper">
-        <img src="assest/img/wallet.png" class="w-[538px] h-[538px] z-40 relative" alt="">
-      </div>
-      <div class="regtangle-wrapper w-full ml-9 ">
-        <div class="bg-[#fff110] rounded-b-[14px] w-[221px] h-[608px] absolute top-0 z-20 " >
+      <!-- Desktop imges -->
+      <div class="header-content-wrapper w-full grid grid-cols-2">
+        <img
+          src="assest/img/wallet.png"
+          class="w-[538px] h-[538px] z-40 relative col-span-1"
+          alt=""/>
+        <div class="col-span-1 max-w-6xl flex flex-col mt-32 items-end mr-36 text-right relative">
+          <div class="w-[400px] h-[7px] bg-[#FFF110] rounded-xl"></div>
+          <p class="hero-small-title">با دعوت از دوستانتان به معامله در</p>
+          <div class="flex justify-between space-x-4">
+            <span class="text-[#FFF110] hero-small-title text-[64px]">30%</span>
+            <span class="text-[#FFF110] hero-small-title font-extrabold text-[64px]">کــــــریــــپــتــر</span>
+          </div>
+          <span class="hero-small-title text-light-5">کارمزد ما در جیب شما</span>
+          <span class="text-light-30 font-light text-xl">مطمئن ترین ارز دیجیتال در ایران</span>
+          <div class="hero-btn-wrapper border-solid rounded-2xl border-[#FFF110] border-[3px] flex items-center justify-center mt-20 max-w-lg">
+            <button class="px-[68px] py-3 shadow-md w-full">
+              <span class="font-yekan-Bakh text-[26px] text-[#FFF110] font-extrabold">بزن بریم برای دریافت جایزه</span>
+            </button>
+          </div>
         </div>
       </div>
+      <div class="regtangle-wrapper w-full ml-9">
+        <div
+          class="bg-[#fff110] rounded-b-[14px] w-[221px] h-[608px] absolute top-0 z-20"
+        ></div>
+      </div>
+
+      <!-- mobil imges -->
+      <!-- mobil imges -->
     </section>
 
     <script src="assest/js/main.js"></script>
