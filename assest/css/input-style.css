@@ -57,8 +57,8 @@
   right: 0rem;
   @apply z-40
 }
-#mobile-content-menu.acitve.wallet-wrapper{
-  z-index: -40;
+#mobile-content-menu.acitve.wallet-wrapper img{
+  z-index: 30;
 
 }
 .header-wrapper{

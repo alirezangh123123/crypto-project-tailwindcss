@@ -15,6 +15,7 @@ let closeMenu = () => {
 };
 let OpenMenu = () => {
   getContentMenu.classList.add("acitve");
+  getContentMenu.classList.add("z-60")
   getWallet.classList.remove("z-40");
-  getWallet.classList.add("z-30");
+  // getWallet.classList.add("z-20");
 };
