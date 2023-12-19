@@ -2,17 +2,21 @@
 module.exports = {
   content: ["./index.html"],
   theme: {
-    fontFamily:{
+    fontFamily: {
       "b-yekan": "B-YEKAN",
-      "yekan-Bakh" :"Y-BAKH",
+      "yekan-Bakh": "Y-BAKH",
     },
     screens: {
       xs: "320px",
-      sm: "430px",
-      md: "680px",
+      sm: "425px",
+      md: "768px",
       lg: "992px",
       xl: "1200px",
       xl2: "1440px",
+    },
+    container: {
+      center: true,
+      padding: "1rem",
     },
     extend: {
       colors: {
@@ -62,7 +66,6 @@ module.exports = {
         x: "#E5AE1F",
         z: "#18CE2A",
       },
-    
     },
   },
   plugins: [],
