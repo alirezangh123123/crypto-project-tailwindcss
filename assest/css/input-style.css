@@ -26,6 +26,7 @@
     @apply text-light-5 text-[32px] leading-[58.5px]  font-yekan-Bakh font-normal
   }
 }
+
 .sub-bar {
   @apply w-full h-[2px] bg-primary-50 absolute bottom-0;
 }
@@ -67,3 +68,4 @@
   background-color: #2150F5;
 z-index: 10 !important;
 }
+/* crypto-box-sltye */
