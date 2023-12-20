@@ -70,7 +70,7 @@ z-index: 10 !important;
 }
 /* table stlyes */
 .online-pirce-tr{
-  @apply grid xs:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 text-center space-x-12
+  @apply grid xs:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 text-center space-x-12  border-b py-2 border-primary-50 
 }
 .td-position{
   @apply my-auto col-span-1;

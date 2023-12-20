@@ -818,14 +818,6 @@ video {
   height: auto;
 }
 
-.h-\[100px\] {
-  height: 100px;
-}
-
-.h-\[400px\] {
-  height: 400px;
-}
-
 .w-1\/2 {
   width: 50%;
 }
@@ -873,18 +865,6 @@ video {
 .w-max {
   width: -moz-max-content;
   width: max-content;
-}
-
-.w-\[\] {
-  width: ;
-}
-
-.w-\[800px\] {
-  width: 800px;
-}
-
-.w-\[80px\] {
-  width: 80px;
 }
 
 .max-w-6xl {
@@ -1370,6 +1350,11 @@ video {
 }
 
 .online-pirce-tr {
+  border-bottom-width: 1px;
+  --tw-border-opacity: 1;
+  border-color: rgb(33 80 245 / var(--tw-border-opacity));
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
   text-align: center;
 }
 
@@ -1713,12 +1698,12 @@ video {
     width: 500px;
   }
 
-  .md\:w-full {
-    width: 100%;
-  }
-
   .md\:w-\[80px\] {
     width: 80px;
+  }
+
+  .md\:w-full {
+    width: 100%;
   }
 
   .md\:min-w-max {
