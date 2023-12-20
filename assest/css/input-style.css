@@ -68,4 +68,22 @@
   background-color: #2150F5;
 z-index: 10 !important;
 }
-/* crypto-box-sltye */
+/* table stlyes */
+.online-pirce-tr{
+  @apply grid xs:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 text-center space-x-12
+}
+.td-position{
+  @apply my-auto col-span-1;
+}
+.buy_sell_btn{
+  @apply text-primary-50 border  border-primary-50 rounded-lg hover:text-white hover:bg-primary-50 transition-all duration-300 btn-center py-1 px-1 sm:py-2 sm:px-6
+}
+.change_status{
+  @apply text-green-500 text-center font-semibold font-yekan-Bakh  xl:text-2xl lg:text-lg
+}
+.daily_change{
+  @apply text-zinc-800 text-xl font-bold font-yekan-Bakh;
+}
+.moment_price{
+  @apply text-primary-60 text-xl font-extrabold font-yekan-Bakh;
+}
