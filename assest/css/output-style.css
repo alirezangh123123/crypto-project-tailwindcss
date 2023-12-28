@@ -819,6 +819,18 @@ video {
   margin-top: 89px;
 }
 
+.mt-\[139\] {
+  margin-top: 139;
+}
+
+.mt-\[138px\] {
+  margin-top: 138px;
+}
+
+.mt-\[128px\] {
+  margin-top: 128px;
+}
+
 .line-clamp-2 {
   overflow: hidden;
   display: -webkit-box;
@@ -945,6 +957,10 @@ video {
 .w-max {
   width: -moz-max-content;
   width: max-content;
+}
+
+.w-3\/4 {
+  width: 75%;
 }
 
 .max-w-6xl {
@@ -1286,6 +1302,31 @@ video {
   padding-bottom: 4px;
 }
 
+.px-\[145px\] {
+  padding-left: 145px;
+  padding-right: 145px;
+}
+
+.py-\[12px\] {
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+
+.px-\[445px\] {
+  padding-left: 445px;
+  padding-right: 445px;
+}
+
+.px-\[155px\] {
+  padding-left: 155px;
+  padding-right: 155px;
+}
+
+.py-\[15px\] {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
 .pl-5 {
   padding-left: 1.25rem;
 }
@@ -1339,6 +1380,10 @@ video {
   line-height: 1rem;
 }
 
+.text-\[13px\] {
+  font-size: 13px;
+}
+
 .font-bold {
   font-weight: 700;
 }
@@ -1357,6 +1402,14 @@ video {
 
 .leading-\[32px\] {
   line-height: 32px;
+}
+
+.leading-3 {
+  line-height: .75rem;
+}
+
+.leading-normal {
+  line-height: 1.5;
 }
 
 .text-\[\#FFF110\] {
@@ -1930,6 +1983,11 @@ video {
     font-size: 1.125rem;
     line-height: 1.75rem;
   }
+
+  .sm\:text-sm {
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+  }
 }
 
 @media (min-width: 768px) {
@@ -2011,6 +2069,10 @@ video {
     width: 100%;
   }
 
+  .md\:w-3\/4 {
+    width: 75%;
+  }
+
   .md\:min-w-max {
     min-width: -moz-max-content;
     min-width: max-content;
@@ -2072,8 +2134,22 @@ video {
     padding-bottom: 22px;
   }
 
+  .md\:px-\[155px\] {
+    padding-left: 155px;
+    padding-right: 155px;
+  }
+
+  .md\:py-\[12px\] {
+    padding-top: 12px;
+    padding-bottom: 12px;
+  }
+
   .md\:pt-0 {
     padding-top: 0px;
+  }
+
+  .md\:text-right {
+    text-align: right;
   }
 
   .md\:text-2xl {
@@ -2180,8 +2256,27 @@ video {
     width: 538px;
   }
 
+  .lg\:w-3\/4 {
+    width: 75%;
+  }
+
   .lg\:justify-end {
     justify-content: flex-end;
+  }
+
+  .lg\:px-\[155px\] {
+    padding-left: 155px;
+    padding-right: 155px;
+  }
+
+  .lg\:py-\[12px\] {
+    padding-top: 12px;
+    padding-bottom: 12px;
+  }
+
+  .lg\:px-\[125px\] {
+    padding-left: 125px;
+    padding-right: 125px;
   }
 
   .lg\:text-4xl {
@@ -2197,6 +2292,11 @@ video {
   .lg\:text-lg {
     font-size: 1.125rem;
     line-height: 1.75rem;
+  }
+
+  .lg\:text-2xl {
+    font-size: 1.5rem;
+    line-height: 2rem;
   }
 }
 
